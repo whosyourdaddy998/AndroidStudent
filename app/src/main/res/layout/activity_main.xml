@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--numColumns设置每行显示多少个-->
+<!--    <GridView-->
+<!--        android:id="@+id/grid_photo"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:numColumns="1" />-->
+
+
+    <ImageView
+        android:id="@+id/image_0"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+    <ImageView
+        android:id="@+id/image_2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+
+    <ImageView
+        android:id="@+id/image_3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+</LinearLayout>
